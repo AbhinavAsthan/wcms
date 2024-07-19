@@ -1,14 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="vendor/bootstarp/css/bootstrap.min.css">
     <link rel="stylesheet" href="vendor/css/mainstyle.css">
     <script src="vendor/bootstarp/js/bootstrap.min.js"></script>
-    
+
     <title>Dashboard</title>
 </head>
+
 <body>
     <div class="container-fluid">
         <div class="row" style="height: 150px;">
@@ -17,7 +19,8 @@
             </div>
             <div class="col-12 col-lg-8 col-md-10 ">
                 <h1 class="text-center">VED INSTITUTE OF PHARMACY</h1>
-                <h6 class="text-center">Affiliated to Uttar Pradesh Board of Technical Education, Lucknow, Under the ages of Ved Educational and Welfare Trust, Lucknow</h6>
+                <h6 class="text-center">Affiliated to Uttar Pradesh Board of Technical Education, Lucknow, Under the
+                    ages of Ved Educational and Welfare Trust, Lucknow</h6>
             </div>
             <div class="col-12 col-lg-2 col-md-12 ">
                 <img src="images/vedgroupsm.jpg" alt="" class="logos">
@@ -27,45 +30,68 @@
             <div class="col-12 col-lg-2 col-md-2 bg-primary" style="height: auto;">
                 <div class="offcanvas offcanvas-start" id="demo">
                     <div class="offcanvas-header">
-                      <h1 class="offcanvas-title">Heading</h1>
-                      <button type="button" class="btn-close" data-bs-dismiss="offcanvas"></button>
+                        <h1 class="offcanvas-title">Heading</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas"></button>
                     </div>
                     <div class="offcanvas-body">
-                        <ul>
-                            <li>
-                                <a href="" data-bs-toggle="collapse" data-bs-target="#demo1">Home</a>
-                            </li>
-                            <div id="demo1" class="collapse">
-                                I am Home
+                        <div class="card">
+                            <div class="card-header">
+                                <a class="btn" data-bs-toggle="collapse" href="#collapse1">
+                                    Home
+                                </a>
                             </div>
-                            <li>
-                                <a href="" data-bs-toggle="collapse" data-bs-target="#demo2">About</a>
-                            </li>
-                            <div id="demo2" class="collapse">
-                                I am About
+                            <div id="collapse1" class="collapse" data-bs-parent="#accordion">
+                                <div class="card-body">
+                                    I am Home
+                                </div>
                             </div>
-                            <li>
-                                <a href="" data-bs-toggle="collapse" data-bs-target="#demo3">Contact</a>
-                            </li>
-                            <div id="demo3" class="collapse">
-                                I am Contact
+                        </div>
+                        <div class="card">
+                            <div class="card-header">
+                                <a class="btn" data-bs-toggle="collapse" href="#collapse2">
+                                    About
+                                </a>
                             </div>
-                        </ul>
+                            <div id="collapse2" class="collapse" data-bs-parent="#accordion">
+                                <div class="card-body">
+                                    I am About
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header">
+                                <a class="btn" data-bs-toggle="collapse" href="#collapse3">
+                                    Contact
+                                </a>
+                            </div>
+                            <div id="collapse3" class="collapse" data-bs-parent="#accordion">
+                                <div class="card-body">
+                                    I am Contact
+                                </div>
+                            </div>
+                        </div>
+                        
+
                     </div>
-                  </div>
-                <button class="btn btn-primary" type="button" style="margin-top: 20px;" data-bs-toggle="offcanvas" data-bs-target="#demo">
-                Menu
-              </button></div>
-            <div class="col-12 col-lg-10 col-md-10"> 
+                </div>
+                <button class="btn btn-primary" type="button" style="margin-top: 20px;" data-bs-toggle="offcanvas"
+                    data-bs-target="#demo">
+                    Menu
+                </button>
+            </div>
+            <div class="col-12 col-lg-10 col-md-10">
                 <div class="row">
                     <div class="col-6 col-lg-3 col-md-4">
-                        <div class="boxcontent"> 
+                        <div class="boxcontent">
                             <div class="card">
-                                <img class="card-img-top product-img" src="images/products/1.jpeg" alt="Card image" style="width: 50%; height: 50%; ">
+                                <img class="card-img-top product-img" src="images/products/1.jpeg" alt="Card image"
+                                    style="width: 50%; height: 50%; ">
                                 <div class="card-body">
                                     <p class="product-title">Swisse Collagen + Hyaluronic Acid</p>
-                                    <p class="product-des">Swisse Collagen + Hyaluronic Acid | With Vitamin C & E for Anti-Wrinkle Support | Tablet</p>
-                                    <p> MRP: <span class="product-mrp">1600</span> <span class="product-dis">30% off</span></p>
+                                    <p class="product-des">Swisse Collagen + Hyaluronic Acid | With Vitamin C & E for
+                                        Anti-Wrinkle Support | Tablet</p>
+                                    <p> MRP: <span class="product-mrp">1600</span> <span class="product-dis">30%
+                                            off</span></p>
                                     <p class="product-price">800/-</p>
                                 </div>
                             </div>
@@ -97,7 +123,9 @@
         </div>
         <div class="row">
             <div class="col">
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt quod officiis sapiente veniam odit, suscipit praesentium? Qui enim similique culpa nihil alias ullam ipsam maiores, minima laboriosam, aspernatur ex doloremque.
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt quod officiis sapiente veniam odit,
+                suscipit praesentium? Qui enim similique culpa nihil alias ullam ipsam maiores, minima laboriosam,
+                aspernatur ex doloremque.
             </div>
         </div>
         <div class="row" style="height: 100px; background-color: rgb(132, 243, 230);">
@@ -105,6 +133,7 @@
             <div class="col-8"></div>
         </div>
     </div>
-    
+
 </body>
+
 </html>
